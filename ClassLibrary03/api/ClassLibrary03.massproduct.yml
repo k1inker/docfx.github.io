@@ -1,0 +1,670 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClassLibrary03.massproduct
+  commentId: T:ClassLibrary03.massproduct
+  id: massproduct
+  parent: ClassLibrary03
+  children:
+  - ClassLibrary03.massproduct.#ctor(System.Double,System.Double)
+  - ClassLibrary03.massproduct.#ctor(System.String,System.String,System.Double,System.Double)
+  - ClassLibrary03.massproduct.#ctor(System.String,System.String,System.String,System.Double,System.Double)
+  - ClassLibrary03.massproduct.print
+  - ClassLibrary03.massproduct.weight
+  - ClassLibrary03.massproduct.Weight
+  langs:
+  - csharp
+  - vb
+  name: massproduct
+  nameWithType: massproduct
+  fullName: ClassLibrary03.massproduct
+  type: Class
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: massproduct
+    path: Class1.cs
+    startLine: 73
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nДочерний класс от базового\nиспользования базовоых конструкторов и дочерних\nпроверка на корректность ввода данных\n"
+  example: []
+  syntax:
+    content: 'public class massproduct : product'
+    content.vb: >-
+      Public Class massproduct
+          Inherits product
+  inheritance:
+  - System.Object
+  - ClassLibrary03.product
+  inheritedMembers:
+  - ClassLibrary03.product.id
+  - ClassLibrary03.product.name
+  - ClassLibrary03.product.category
+  - ClassLibrary03.product.sender
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ClassLibrary03.massproduct.weight
+  commentId: F:ClassLibrary03.massproduct.weight
+  id: weight
+  parent: ClassLibrary03.massproduct
+  langs:
+  - csharp
+  - vb
+  name: weight
+  nameWithType: massproduct.weight
+  fullName: ClassLibrary03.massproduct.weight
+  type: Field
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: weight
+    path: Class1.cs
+    startLine: 78
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nполе веса\n"
+  example: []
+  syntax:
+    content: protected double weight
+    return:
+      type: System.Double
+    content.vb: Protected weight As Double
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: ClassLibrary03.massproduct.Weight
+  commentId: P:ClassLibrary03.massproduct.Weight
+  id: Weight
+  parent: ClassLibrary03.massproduct
+  langs:
+  - csharp
+  - vb
+  name: Weight
+  nameWithType: massproduct.Weight
+  fullName: ClassLibrary03.massproduct.Weight
+  type: Property
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: Weight
+    path: Class1.cs
+    startLine: 82
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nсвойства для поля веса\n"
+  example: []
+  syntax:
+    content: public double Weight { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Weight As Double
+  overload: ClassLibrary03.massproduct.Weight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ClassLibrary03.massproduct.#ctor(System.Double,System.Double)
+  commentId: M:ClassLibrary03.massproduct.#ctor(System.Double,System.Double)
+  id: '#ctor(System.Double,System.Double)'
+  parent: ClassLibrary03.massproduct
+  langs:
+  - csharp
+  - vb
+  name: massproduct(Double, Double)
+  nameWithType: massproduct.massproduct(Double, Double)
+  fullName: ClassLibrary03.massproduct.massproduct(System.Double, System.Double)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: .ctor
+    path: Class1.cs
+    startLine: 111
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nконструктор дочернего класса с 2 параметрами\n"
+  example: []
+  syntax:
+    content: public massproduct(double weight, double weightofprice)
+    parameters:
+    - id: weight
+      type: System.Double
+      description: Вес
+    - id: weightofprice
+      type: System.Double
+      description: Цена за кг
+    content.vb: Public Sub New(weight As Double, weightofprice As Double)
+  overload: ClassLibrary03.massproduct.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ClassLibrary03.massproduct.#ctor(System.String,System.String,System.Double,System.Double)
+  commentId: M:ClassLibrary03.massproduct.#ctor(System.String,System.String,System.Double,System.Double)
+  id: '#ctor(System.String,System.String,System.Double,System.Double)'
+  parent: ClassLibrary03.massproduct
+  langs:
+  - csharp
+  - vb
+  name: massproduct(String, String, Double, Double)
+  nameWithType: massproduct.massproduct(String, String, Double, Double)
+  fullName: ClassLibrary03.massproduct.massproduct(System.String, System.String, System.Double, System.Double)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: .ctor
+    path: Class1.cs
+    startLine: 135
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nконструктор дочернего класса с 4 параметрами\n"
+  example: []
+  syntax:
+    content: public massproduct(string n, string c, double weight, double weightofprice)
+    parameters:
+    - id: n
+      type: System.String
+      description: Название
+    - id: c
+      type: System.String
+      description: Категория
+    - id: weight
+      type: System.Double
+      description: Вес
+    - id: weightofprice
+      type: System.Double
+      description: Цена за кг
+    content.vb: Public Sub New(n As String, c As String, weight As Double, weightofprice As Double)
+  overload: ClassLibrary03.massproduct.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ClassLibrary03.massproduct.#ctor(System.String,System.String,System.String,System.Double,System.Double)
+  commentId: M:ClassLibrary03.massproduct.#ctor(System.String,System.String,System.String,System.Double,System.Double)
+  id: '#ctor(System.String,System.String,System.String,System.Double,System.Double)'
+  parent: ClassLibrary03.massproduct
+  langs:
+  - csharp
+  - vb
+  name: massproduct(String, String, String, Double, Double)
+  nameWithType: massproduct.massproduct(String, String, String, Double, Double)
+  fullName: ClassLibrary03.massproduct.massproduct(System.String, System.String, System.String, System.Double, System.Double)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: .ctor
+    path: Class1.cs
+    startLine: 161
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nконструктор дочернего класса с 5 параметрами\n"
+  example: []
+  syntax:
+    content: public massproduct(string n, string c, string s, double weight, double weightofprice)
+    parameters:
+    - id: n
+      type: System.String
+      description: Название
+    - id: c
+      type: System.String
+      description: Категория
+    - id: s
+      type: System.String
+      description: Отправитель
+    - id: weight
+      type: System.Double
+      description: Вес
+    - id: weightofprice
+      type: System.Double
+      description: Цена за кг
+    content.vb: Public Sub New(n As String, c As String, s As String, weight As Double, weightofprice As Double)
+  overload: ClassLibrary03.massproduct.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ClassLibrary03.massproduct.print
+  commentId: M:ClassLibrary03.massproduct.print
+  id: print
+  parent: ClassLibrary03.massproduct
+  langs:
+  - csharp
+  - vb
+  name: print()
+  nameWithType: massproduct.print()
+  fullName: ClassLibrary03.massproduct.print()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: print
+    path: Class1.cs
+    startLine: 183
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nпереопределенный метод\n"
+  example: []
+  syntax:
+    content: public override string print()
+    return:
+      type: System.String
+      description: Всех значений ввиде строки
+    content.vb: Public Overrides Function print As String
+  overridden: ClassLibrary03.product.print
+  overload: ClassLibrary03.massproduct.print*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: ClassLibrary03
+  commentId: N:ClassLibrary03
+  name: ClassLibrary03
+  nameWithType: ClassLibrary03
+  fullName: ClassLibrary03
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ClassLibrary03.product
+  commentId: T:ClassLibrary03.product
+  parent: ClassLibrary03
+  name: product
+  nameWithType: product
+  fullName: ClassLibrary03.product
+- uid: ClassLibrary03.product.id
+  commentId: F:ClassLibrary03.product.id
+  parent: ClassLibrary03.product
+  name: id
+  nameWithType: product.id
+  fullName: ClassLibrary03.product.id
+- uid: ClassLibrary03.product.name
+  commentId: F:ClassLibrary03.product.name
+  parent: ClassLibrary03.product
+  name: name
+  nameWithType: product.name
+  fullName: ClassLibrary03.product.name
+- uid: ClassLibrary03.product.category
+  commentId: F:ClassLibrary03.product.category
+  parent: ClassLibrary03.product
+  name: category
+  nameWithType: product.category
+  fullName: ClassLibrary03.product.category
+- uid: ClassLibrary03.product.sender
+  commentId: F:ClassLibrary03.product.sender
+  parent: ClassLibrary03.product
+  name: sender
+  nameWithType: product.sender
+  fullName: ClassLibrary03.product.sender
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: ClassLibrary03.massproduct.Weight*
+  commentId: Overload:ClassLibrary03.massproduct.Weight
+  name: Weight
+  nameWithType: massproduct.Weight
+  fullName: ClassLibrary03.massproduct.Weight
+- uid: ClassLibrary03.massproduct.#ctor*
+  commentId: Overload:ClassLibrary03.massproduct.#ctor
+  name: massproduct
+  nameWithType: massproduct.massproduct
+  fullName: ClassLibrary03.massproduct.massproduct
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: ClassLibrary03.product.print
+  commentId: M:ClassLibrary03.product.print
+  parent: ClassLibrary03.product
+  name: print()
+  nameWithType: product.print()
+  fullName: ClassLibrary03.product.print()
+  spec.csharp:
+  - uid: ClassLibrary03.product.print
+    name: print
+    nameWithType: product.print
+    fullName: ClassLibrary03.product.print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: ClassLibrary03.product.print
+    name: print
+    nameWithType: product.print
+    fullName: ClassLibrary03.product.print
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ClassLibrary03.massproduct.print*
+  commentId: Overload:ClassLibrary03.massproduct.print
+  name: print
+  nameWithType: massproduct.print
+  fullName: ClassLibrary03.massproduct.print

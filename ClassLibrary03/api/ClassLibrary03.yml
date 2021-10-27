@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClassLibrary03
+  commentId: N:ClassLibrary03
+  id: ClassLibrary03
+  children:
+  - ClassLibrary03.massproduct
+  - ClassLibrary03.pieceproduct
+  - ClassLibrary03.product
+  langs:
+  - csharp
+  - vb
+  name: ClassLibrary03
+  nameWithType: ClassLibrary03
+  fullName: ClassLibrary03
+  type: Namespace
+  assemblies:
+  - ClassLibrary03
+references:
+- uid: ClassLibrary03.product
+  commentId: T:ClassLibrary03.product
+  parent: ClassLibrary03
+  name: product
+  nameWithType: product
+  fullName: ClassLibrary03.product
+- uid: ClassLibrary03.massproduct
+  commentId: T:ClassLibrary03.massproduct
+  name: massproduct
+  nameWithType: massproduct
+  fullName: ClassLibrary03.massproduct
+- uid: ClassLibrary03.pieceproduct
+  commentId: T:ClassLibrary03.pieceproduct
+  name: pieceproduct
+  nameWithType: pieceproduct
+  fullName: ClassLibrary03.pieceproduct
+- uid: ClassLibrary03
+  commentId: N:ClassLibrary03
+  name: ClassLibrary03
+  nameWithType: ClassLibrary03
+  fullName: ClassLibrary03
