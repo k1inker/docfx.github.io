@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClassLibrary03.product
+  commentId: T:ClassLibrary03.product
+  id: product
+  parent: ClassLibrary03
+  children:
+  - ClassLibrary03.product.#ctor
+  - ClassLibrary03.product.#ctor(System.String,System.String)
+  - ClassLibrary03.product.#ctor(System.String,System.String,System.String)
+  - ClassLibrary03.product.category
+  - ClassLibrary03.product.id
+  - ClassLibrary03.product.name
+  - ClassLibrary03.product.print
+  - ClassLibrary03.product.sender
+  langs:
+  - csharp
+  - vb
+  name: product
+  nameWithType: product
+  fullName: ClassLibrary03.product
+  type: Class
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: product
+    path: Class1.cs
+    startLine: 9
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nБазовый класс\nзащищенные поля name, category, sender\n3 конструктора \n"
+  example: []
+  syntax:
+    content: public abstract class product
+    content.vb: Public MustInherit Class product
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - ClassLibrary03.massproduct
+  - ClassLibrary03.pieceproduct
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: ClassLibrary03.product.id
+  commentId: F:ClassLibrary03.product.id
+  id: id
+  parent: ClassLibrary03.product
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: product.id
+  fullName: ClassLibrary03.product.id
+  type: Field
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: id
+    path: Class1.cs
+    startLine: 14
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nполе АйДи каждого продукта\n"
+  example: []
+  syntax:
+    content: protected static int id
+    return:
+      type: System.Int32
+    content.vb: Protected Shared id As Integer
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: ClassLibrary03.product.name
+  commentId: F:ClassLibrary03.product.name
+  id: name
+  parent: ClassLibrary03.product
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: product.name
+  fullName: ClassLibrary03.product.name
+  type: Field
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: name
+    path: Class1.cs
+    startLine: 18
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nполе названия продукта\n"
+  example: []
+  syntax:
+    content: protected string name
+    return:
+      type: System.String
+    content.vb: Protected name As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: ClassLibrary03.product.category
+  commentId: F:ClassLibrary03.product.category
+  id: category
+  parent: ClassLibrary03.product
+  langs:
+  - csharp
+  - vb
+  name: category
+  nameWithType: product.category
+  fullName: ClassLibrary03.product.category
+  type: Field
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: category
+    path: Class1.cs
+    startLine: 22
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nполе названия категории продукта\n"
+  example: []
+  syntax:
+    content: protected string category
+    return:
+      type: System.String
+    content.vb: Protected category As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: ClassLibrary03.product.sender
+  commentId: F:ClassLibrary03.product.sender
+  id: sender
+  parent: ClassLibrary03.product
+  langs:
+  - csharp
+  - vb
+  name: sender
+  nameWithType: product.sender
+  fullName: ClassLibrary03.product.sender
+  type: Field
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: sender
+    path: Class1.cs
+    startLine: 26
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nполе названия отправителя\n"
+  example: []
+  syntax:
+    content: protected string sender
+    return:
+      type: System.String
+    content.vb: Protected sender As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: ClassLibrary03.product.#ctor
+  commentId: M:ClassLibrary03.product.#ctor
+  id: '#ctor'
+  parent: ClassLibrary03.product
+  langs:
+  - csharp
+  - vb
+  name: product()
+  nameWithType: product.product()
+  fullName: ClassLibrary03.product.product()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: .ctor
+    path: Class1.cs
+    startLine: 30
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nконструктор по умолчанию\n"
+  example: []
+  syntax:
+    content: public product()
+    content.vb: Public Sub New
+  overload: ClassLibrary03.product.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ClassLibrary03.product.#ctor(System.String,System.String)
+  commentId: M:ClassLibrary03.product.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: ClassLibrary03.product
+  langs:
+  - csharp
+  - vb
+  name: product(String, String)
+  nameWithType: product.product(String, String)
+  fullName: ClassLibrary03.product.product(System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: .ctor
+    path: Class1.cs
+    startLine: 42
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nконструктор с 2 параметрами\n"
+  example: []
+  syntax:
+    content: public product(string n, string c)
+    parameters:
+    - id: n
+      type: System.String
+      description: Название
+    - id: c
+      type: System.String
+      description: Категории
+    content.vb: Public Sub New(n As String, c As String)
+  overload: ClassLibrary03.product.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ClassLibrary03.product.#ctor(System.String,System.String,System.String)
+  commentId: M:ClassLibrary03.product.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: ClassLibrary03.product
+  langs:
+  - csharp
+  - vb
+  name: product(String, String, String)
+  nameWithType: product.product(String, String, String)
+  fullName: ClassLibrary03.product.product(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: .ctor
+    path: Class1.cs
+    startLine: 55
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nконструктор с 3 параметрами\n"
+  example: []
+  syntax:
+    content: public product(string n, string c, string s)
+    parameters:
+    - id: n
+      type: System.String
+      description: Название
+    - id: c
+      type: System.String
+      description: Категория
+    - id: s
+      type: System.String
+      description: Отправитель
+    content.vb: Public Sub New(n As String, c As String, s As String)
+  overload: ClassLibrary03.product.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ClassLibrary03.product.print
+  commentId: M:ClassLibrary03.product.print
+  id: print
+  parent: ClassLibrary03.product
+  langs:
+  - csharp
+  - vb
+  name: print()
+  nameWithType: product.print()
+  fullName: ClassLibrary03.product.print()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: print
+    path: Class1.cs
+    startLine: 66
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nметод вывода информации продукта\n"
+  example: []
+  syntax:
+    content: public virtual string print()
+    return:
+      type: System.String
+      description: Всех значений ввиде строки
+    content.vb: Public Overridable Function print As String
+  overload: ClassLibrary03.product.print*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: ClassLibrary03
+  commentId: N:ClassLibrary03
+  name: ClassLibrary03
+  nameWithType: ClassLibrary03
+  fullName: ClassLibrary03
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: ClassLibrary03.product.#ctor*
+  commentId: Overload:ClassLibrary03.product.#ctor
+  name: product
+  nameWithType: product.product
+  fullName: ClassLibrary03.product.product
+- uid: ClassLibrary03.product.print*
+  commentId: Overload:ClassLibrary03.product.print
+  name: print
+  nameWithType: product.print
+  fullName: ClassLibrary03.product.print
