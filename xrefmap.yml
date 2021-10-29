@@ -1,0 +1,228 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: ClassLibrary03
+  name: ClassLibrary03
+  href: api/ClassLibrary03.html
+  commentId: N:ClassLibrary03
+  fullName: ClassLibrary03
+  nameWithType: ClassLibrary03
+- uid: ClassLibrary03.massproduct
+  name: massproduct
+  href: api/ClassLibrary03.massproduct.html
+  commentId: T:ClassLibrary03.massproduct
+  fullName: ClassLibrary03.massproduct
+  nameWithType: massproduct
+- uid: ClassLibrary03.massproduct.#ctor
+  name: massproduct()
+  href: api/ClassLibrary03.massproduct.html#ClassLibrary03_massproduct__ctor
+  commentId: M:ClassLibrary03.massproduct.#ctor
+  fullName: ClassLibrary03.massproduct.massproduct()
+  nameWithType: massproduct.massproduct()
+- uid: ClassLibrary03.massproduct.#ctor(System.Double,System.Double)
+  name: massproduct(Double, Double)
+  href: api/ClassLibrary03.massproduct.html#ClassLibrary03_massproduct__ctor_System_Double_System_Double_
+  commentId: M:ClassLibrary03.massproduct.#ctor(System.Double,System.Double)
+  fullName: ClassLibrary03.massproduct.massproduct(System.Double, System.Double)
+  nameWithType: massproduct.massproduct(Double, Double)
+- uid: ClassLibrary03.massproduct.#ctor(System.String,System.String,System.Double,System.Double)
+  name: massproduct(String, String, Double, Double)
+  href: api/ClassLibrary03.massproduct.html#ClassLibrary03_massproduct__ctor_System_String_System_String_System_Double_System_Double_
+  commentId: M:ClassLibrary03.massproduct.#ctor(System.String,System.String,System.Double,System.Double)
+  fullName: ClassLibrary03.massproduct.massproduct(System.String, System.String, System.Double, System.Double)
+  nameWithType: massproduct.massproduct(String, String, Double, Double)
+- uid: ClassLibrary03.massproduct.#ctor(System.String,System.String,System.String,System.Double,System.Double)
+  name: massproduct(String, String, String, Double, Double)
+  href: api/ClassLibrary03.massproduct.html#ClassLibrary03_massproduct__ctor_System_String_System_String_System_String_System_Double_System_Double_
+  commentId: M:ClassLibrary03.massproduct.#ctor(System.String,System.String,System.String,System.Double,System.Double)
+  fullName: ClassLibrary03.massproduct.massproduct(System.String, System.String, System.String, System.Double, System.Double)
+  nameWithType: massproduct.massproduct(String, String, String, Double, Double)
+- uid: ClassLibrary03.massproduct.#ctor*
+  name: massproduct
+  href: api/ClassLibrary03.massproduct.html#ClassLibrary03_massproduct__ctor_
+  commentId: Overload:ClassLibrary03.massproduct.#ctor
+  isSpec: "True"
+  fullName: ClassLibrary03.massproduct.massproduct
+  nameWithType: massproduct.massproduct
+- uid: ClassLibrary03.massproduct.print
+  name: print()
+  href: api/ClassLibrary03.massproduct.html#ClassLibrary03_massproduct_print
+  commentId: M:ClassLibrary03.massproduct.print
+  fullName: ClassLibrary03.massproduct.print()
+  nameWithType: massproduct.print()
+- uid: ClassLibrary03.massproduct.print*
+  name: print
+  href: api/ClassLibrary03.massproduct.html#ClassLibrary03_massproduct_print_
+  commentId: Overload:ClassLibrary03.massproduct.print
+  isSpec: "True"
+  fullName: ClassLibrary03.massproduct.print
+  nameWithType: massproduct.print
+- uid: ClassLibrary03.massproduct.weight
+  name: weight
+  href: api/ClassLibrary03.massproduct.html#ClassLibrary03_massproduct_weight
+  commentId: F:ClassLibrary03.massproduct.weight
+  fullName: ClassLibrary03.massproduct.weight
+  nameWithType: massproduct.weight
+- uid: ClassLibrary03.massproduct.Weight
+  name: Weight
+  href: api/ClassLibrary03.massproduct.html#ClassLibrary03_massproduct_Weight
+  commentId: P:ClassLibrary03.massproduct.Weight
+  fullName: ClassLibrary03.massproduct.Weight
+  nameWithType: massproduct.Weight
+- uid: ClassLibrary03.massproduct.Weight*
+  name: Weight
+  href: api/ClassLibrary03.massproduct.html#ClassLibrary03_massproduct_Weight_
+  commentId: Overload:ClassLibrary03.massproduct.Weight
+  isSpec: "True"
+  fullName: ClassLibrary03.massproduct.Weight
+  nameWithType: massproduct.Weight
+- uid: ClassLibrary03.pieceproduct
+  name: pieceproduct
+  href: api/ClassLibrary03.pieceproduct.html
+  commentId: T:ClassLibrary03.pieceproduct
+  fullName: ClassLibrary03.pieceproduct
+  nameWithType: pieceproduct
+- uid: ClassLibrary03.pieceproduct.#ctor
+  name: pieceproduct()
+  href: api/ClassLibrary03.pieceproduct.html#ClassLibrary03_pieceproduct__ctor
+  commentId: M:ClassLibrary03.pieceproduct.#ctor
+  fullName: ClassLibrary03.pieceproduct.pieceproduct()
+  nameWithType: pieceproduct.pieceproduct()
+- uid: ClassLibrary03.pieceproduct.#ctor(System.Int32,System.Double)
+  name: pieceproduct(Int32, Double)
+  href: api/ClassLibrary03.pieceproduct.html#ClassLibrary03_pieceproduct__ctor_System_Int32_System_Double_
+  commentId: M:ClassLibrary03.pieceproduct.#ctor(System.Int32,System.Double)
+  fullName: ClassLibrary03.pieceproduct.pieceproduct(System.Int32, System.Double)
+  nameWithType: pieceproduct.pieceproduct(Int32, Double)
+- uid: ClassLibrary03.pieceproduct.#ctor(System.String,System.String,System.Int32,System.Double)
+  name: pieceproduct(String, String, Int32, Double)
+  href: api/ClassLibrary03.pieceproduct.html#ClassLibrary03_pieceproduct__ctor_System_String_System_String_System_Int32_System_Double_
+  commentId: M:ClassLibrary03.pieceproduct.#ctor(System.String,System.String,System.Int32,System.Double)
+  fullName: ClassLibrary03.pieceproduct.pieceproduct(System.String, System.String, System.Int32, System.Double)
+  nameWithType: pieceproduct.pieceproduct(String, String, Int32, Double)
+- uid: ClassLibrary03.pieceproduct.#ctor(System.String,System.String,System.String,System.Int32,System.Double)
+  name: pieceproduct(String, String, String, Int32, Double)
+  href: api/ClassLibrary03.pieceproduct.html#ClassLibrary03_pieceproduct__ctor_System_String_System_String_System_String_System_Int32_System_Double_
+  commentId: M:ClassLibrary03.pieceproduct.#ctor(System.String,System.String,System.String,System.Int32,System.Double)
+  fullName: ClassLibrary03.pieceproduct.pieceproduct(System.String, System.String, System.String, System.Int32, System.Double)
+  nameWithType: pieceproduct.pieceproduct(String, String, String, Int32, Double)
+- uid: ClassLibrary03.pieceproduct.#ctor*
+  name: pieceproduct
+  href: api/ClassLibrary03.pieceproduct.html#ClassLibrary03_pieceproduct__ctor_
+  commentId: Overload:ClassLibrary03.pieceproduct.#ctor
+  isSpec: "True"
+  fullName: ClassLibrary03.pieceproduct.pieceproduct
+  nameWithType: pieceproduct.pieceproduct
+- uid: ClassLibrary03.pieceproduct.cout
+  name: cout
+  href: api/ClassLibrary03.pieceproduct.html#ClassLibrary03_pieceproduct_cout
+  commentId: F:ClassLibrary03.pieceproduct.cout
+  fullName: ClassLibrary03.pieceproduct.cout
+  nameWithType: pieceproduct.cout
+- uid: ClassLibrary03.pieceproduct.Cout
+  name: Cout
+  href: api/ClassLibrary03.pieceproduct.html#ClassLibrary03_pieceproduct_Cout
+  commentId: P:ClassLibrary03.pieceproduct.Cout
+  fullName: ClassLibrary03.pieceproduct.Cout
+  nameWithType: pieceproduct.Cout
+- uid: ClassLibrary03.pieceproduct.Cout*
+  name: Cout
+  href: api/ClassLibrary03.pieceproduct.html#ClassLibrary03_pieceproduct_Cout_
+  commentId: Overload:ClassLibrary03.pieceproduct.Cout
+  isSpec: "True"
+  fullName: ClassLibrary03.pieceproduct.Cout
+  nameWithType: pieceproduct.Cout
+- uid: ClassLibrary03.pieceproduct.coutofprice
+  name: coutofprice
+  href: api/ClassLibrary03.pieceproduct.html#ClassLibrary03_pieceproduct_coutofprice
+  commentId: F:ClassLibrary03.pieceproduct.coutofprice
+  fullName: ClassLibrary03.pieceproduct.coutofprice
+  nameWithType: pieceproduct.coutofprice
+- uid: ClassLibrary03.pieceproduct.Coutofprice
+  name: Coutofprice
+  href: api/ClassLibrary03.pieceproduct.html#ClassLibrary03_pieceproduct_Coutofprice
+  commentId: P:ClassLibrary03.pieceproduct.Coutofprice
+  fullName: ClassLibrary03.pieceproduct.Coutofprice
+  nameWithType: pieceproduct.Coutofprice
+- uid: ClassLibrary03.pieceproduct.Coutofprice*
+  name: Coutofprice
+  href: api/ClassLibrary03.pieceproduct.html#ClassLibrary03_pieceproduct_Coutofprice_
+  commentId: Overload:ClassLibrary03.pieceproduct.Coutofprice
+  isSpec: "True"
+  fullName: ClassLibrary03.pieceproduct.Coutofprice
+  nameWithType: pieceproduct.Coutofprice
+- uid: ClassLibrary03.pieceproduct.print
+  name: print()
+  href: api/ClassLibrary03.pieceproduct.html#ClassLibrary03_pieceproduct_print
+  commentId: M:ClassLibrary03.pieceproduct.print
+  fullName: ClassLibrary03.pieceproduct.print()
+  nameWithType: pieceproduct.print()
+- uid: ClassLibrary03.pieceproduct.print*
+  name: print
+  href: api/ClassLibrary03.pieceproduct.html#ClassLibrary03_pieceproduct_print_
+  commentId: Overload:ClassLibrary03.pieceproduct.print
+  isSpec: "True"
+  fullName: ClassLibrary03.pieceproduct.print
+  nameWithType: pieceproduct.print
+- uid: ClassLibrary03.product
+  name: product
+  href: api/ClassLibrary03.product.html
+  commentId: T:ClassLibrary03.product
+  fullName: ClassLibrary03.product
+  nameWithType: product
+- uid: ClassLibrary03.product.#ctor
+  name: product()
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product__ctor
+  commentId: M:ClassLibrary03.product.#ctor
+  fullName: ClassLibrary03.product.product()
+  nameWithType: product.product()
+- uid: ClassLibrary03.product.#ctor(System.String,System.String)
+  name: product(String, String)
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product__ctor_System_String_System_String_
+  commentId: M:ClassLibrary03.product.#ctor(System.String,System.String)
+  fullName: ClassLibrary03.product.product(System.String, System.String)
+  nameWithType: product.product(String, String)
+- uid: ClassLibrary03.product.#ctor(System.String,System.String,System.String)
+  name: product(String, String, String)
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product__ctor_System_String_System_String_System_String_
+  commentId: M:ClassLibrary03.product.#ctor(System.String,System.String,System.String)
+  fullName: ClassLibrary03.product.product(System.String, System.String, System.String)
+  nameWithType: product.product(String, String, String)
+- uid: ClassLibrary03.product.#ctor*
+  name: product
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product__ctor_
+  commentId: Overload:ClassLibrary03.product.#ctor
+  isSpec: "True"
+  fullName: ClassLibrary03.product.product
+  nameWithType: product.product
+- uid: ClassLibrary03.product.category
+  name: category
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product_category
+  commentId: F:ClassLibrary03.product.category
+  fullName: ClassLibrary03.product.category
+  nameWithType: product.category
+- uid: ClassLibrary03.product.name
+  name: name
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product_name
+  commentId: F:ClassLibrary03.product.name
+  fullName: ClassLibrary03.product.name
+  nameWithType: product.name
+- uid: ClassLibrary03.product.print
+  name: print()
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product_print
+  commentId: M:ClassLibrary03.product.print
+  fullName: ClassLibrary03.product.print()
+  nameWithType: product.print()
+- uid: ClassLibrary03.product.print*
+  name: print
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product_print_
+  commentId: Overload:ClassLibrary03.product.print
+  isSpec: "True"
+  fullName: ClassLibrary03.product.print
+  nameWithType: product.print
+- uid: ClassLibrary03.product.sender
+  name: sender
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product_sender
+  commentId: F:ClassLibrary03.product.sender
+  fullName: ClassLibrary03.product.sender
+  nameWithType: product.sender
