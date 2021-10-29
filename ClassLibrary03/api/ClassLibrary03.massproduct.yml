@@ -5,6 +5,7 @@ items:
   id: massproduct
   parent: ClassLibrary03
   children:
+  - ClassLibrary03.massproduct.#ctor
   - ClassLibrary03.massproduct.#ctor(System.Double,System.Double)
   - ClassLibrary03.massproduct.#ctor(System.String,System.String,System.Double,System.Double)
   - ClassLibrary03.massproduct.#ctor(System.String,System.String,System.String,System.Double,System.Double)
@@ -121,6 +122,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: ClassLibrary03.massproduct.#ctor
+  commentId: M:ClassLibrary03.massproduct.#ctor
+  id: '#ctor'
+  parent: ClassLibrary03.massproduct
+  langs:
+  - csharp
+  - vb
+  name: massproduct()
+  nameWithType: massproduct.massproduct()
+  fullName: ClassLibrary03.massproduct.massproduct()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: .ctor
+    path: Class1.cs
+    startLine: 109
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nконструктор дочернего класса без параметров\n"
+  example: []
+  syntax:
+    content: public massproduct()
+    content.vb: Public Sub New
+  overload: ClassLibrary03.massproduct.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: ClassLibrary03.massproduct.#ctor(System.Double,System.Double)
   commentId: M:ClassLibrary03.massproduct.#ctor(System.Double,System.Double)
   id: '#ctor(System.Double,System.Double)'
@@ -137,7 +168,7 @@ items:
       path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
     id: .ctor
     path: Class1.cs
-    startLine: 111
+    startLine: 119
   assemblies:
   - ClassLibrary03
   namespace: ClassLibrary03
@@ -174,7 +205,7 @@ items:
       path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
     id: .ctor
     path: Class1.cs
-    startLine: 135
+    startLine: 143
   assemblies:
   - ClassLibrary03
   namespace: ClassLibrary03
@@ -217,7 +248,7 @@ items:
       path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
     id: .ctor
     path: Class1.cs
-    startLine: 161
+    startLine: 169
   assemblies:
   - ClassLibrary03
   namespace: ClassLibrary03
@@ -263,7 +294,7 @@ items:
       path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
     id: print
     path: Class1.cs
-    startLine: 183
+    startLine: 191
   assemblies:
   - ClassLibrary03
   namespace: ClassLibrary03

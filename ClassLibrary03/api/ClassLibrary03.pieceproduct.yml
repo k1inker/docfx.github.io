@@ -5,6 +5,7 @@ items:
   id: pieceproduct
   parent: ClassLibrary03
   children:
+  - ClassLibrary03.pieceproduct.#ctor
   - ClassLibrary03.pieceproduct.#ctor(System.Int32,System.Double)
   - ClassLibrary03.pieceproduct.#ctor(System.String,System.String,System.Int32,System.Double)
   - ClassLibrary03.pieceproduct.#ctor(System.String,System.String,System.String,System.Int32,System.Double)
@@ -25,7 +26,7 @@ items:
       path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
     id: pieceproduct
     path: Class1.cs
-    startLine: 193
+    startLine: 201
   assemblies:
   - ClassLibrary03
   namespace: ClassLibrary03
@@ -73,7 +74,7 @@ items:
       path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
     id: cout
     path: Class1.cs
-    startLine: 198
+    startLine: 206
   assemblies:
   - ClassLibrary03
   namespace: ClassLibrary03
@@ -104,7 +105,7 @@ items:
       path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
     id: Cout
     path: Class1.cs
-    startLine: 202
+    startLine: 210
   assemblies:
   - ClassLibrary03
   namespace: ClassLibrary03
@@ -139,7 +140,7 @@ items:
       path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
     id: coutofprice
     path: Class1.cs
-    startLine: 214
+    startLine: 222
   assemblies:
   - ClassLibrary03
   namespace: ClassLibrary03
@@ -170,7 +171,7 @@ items:
       path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
     id: Coutofprice
     path: Class1.cs
-    startLine: 218
+    startLine: 226
   assemblies:
   - ClassLibrary03
   namespace: ClassLibrary03
@@ -189,6 +190,36 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: ClassLibrary03.pieceproduct.#ctor
+  commentId: M:ClassLibrary03.pieceproduct.#ctor
+  id: '#ctor'
+  parent: ClassLibrary03.pieceproduct
+  langs:
+  - csharp
+  - vb
+  name: pieceproduct()
+  nameWithType: pieceproduct.pieceproduct()
+  fullName: ClassLibrary03.pieceproduct.pieceproduct()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
+    id: .ctor
+    path: Class1.cs
+    startLine: 238
+  assemblies:
+  - ClassLibrary03
+  namespace: ClassLibrary03
+  summary: "\nконструктор дочернего класса без параметров \n"
+  example: []
+  syntax:
+    content: public pieceproduct()
+    content.vb: Public Sub New
+  overload: ClassLibrary03.pieceproduct.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: ClassLibrary03.pieceproduct.#ctor(System.Int32,System.Double)
   commentId: M:ClassLibrary03.pieceproduct.#ctor(System.Int32,System.Double)
   id: '#ctor(System.Int32,System.Double)'
@@ -205,7 +236,7 @@ items:
       path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
     id: .ctor
     path: Class1.cs
-    startLine: 232
+    startLine: 248
   assemblies:
   - ClassLibrary03
   namespace: ClassLibrary03
@@ -242,7 +273,7 @@ items:
       path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
     id: .ctor
     path: Class1.cs
-    startLine: 256
+    startLine: 272
   assemblies:
   - ClassLibrary03
   namespace: ClassLibrary03
@@ -285,7 +316,7 @@ items:
       path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
     id: .ctor
     path: Class1.cs
-    startLine: 281
+    startLine: 297
   assemblies:
   - ClassLibrary03
   namespace: ClassLibrary03
@@ -331,7 +362,7 @@ items:
       path: C:/Users/User/Source/Repos/ClassLibrary03/ClassLibrary03/Class1.cs
     id: print
     path: Class1.cs
-    startLine: 302
+    startLine: 318
   assemblies:
   - ClassLibrary03
   namespace: ClassLibrary03
