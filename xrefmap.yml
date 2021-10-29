@@ -76,6 +76,19 @@ references:
   isSpec: "True"
   fullName: ClassLibrary03.massproduct.Weight
   nameWithType: massproduct.Weight
+- uid: ClassLibrary03.massproduct.Weightofprice
+  name: Weightofprice
+  href: api/ClassLibrary03.massproduct.html#ClassLibrary03_massproduct_Weightofprice
+  commentId: P:ClassLibrary03.massproduct.Weightofprice
+  fullName: ClassLibrary03.massproduct.Weightofprice
+  nameWithType: massproduct.Weightofprice
+- uid: ClassLibrary03.massproduct.Weightofprice*
+  name: Weightofprice
+  href: api/ClassLibrary03.massproduct.html#ClassLibrary03_massproduct_Weightofprice_
+  commentId: Overload:ClassLibrary03.massproduct.Weightofprice
+  isSpec: "True"
+  fullName: ClassLibrary03.massproduct.Weightofprice
+  nameWithType: massproduct.Weightofprice
 - uid: ClassLibrary03.pieceproduct
   name: pieceproduct
   href: api/ClassLibrary03.pieceproduct.html
@@ -198,13 +211,39 @@ references:
 - uid: ClassLibrary03.product.category
   name: category
   href: api/ClassLibrary03.product.html#ClassLibrary03_product_category
-  commentId: F:ClassLibrary03.product.category
+  commentId: P:ClassLibrary03.product.category
+  fullName: ClassLibrary03.product.category
+  nameWithType: product.category
+- uid: ClassLibrary03.product.Category
+  name: Category
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product_Category
+  commentId: F:ClassLibrary03.product.Category
+  fullName: ClassLibrary03.product.Category
+  nameWithType: product.Category
+- uid: ClassLibrary03.product.category*
+  name: category
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product_category_
+  commentId: Overload:ClassLibrary03.product.category
+  isSpec: "True"
   fullName: ClassLibrary03.product.category
   nameWithType: product.category
 - uid: ClassLibrary03.product.name
   name: name
   href: api/ClassLibrary03.product.html#ClassLibrary03_product_name
-  commentId: F:ClassLibrary03.product.name
+  commentId: P:ClassLibrary03.product.name
+  fullName: ClassLibrary03.product.name
+  nameWithType: product.name
+- uid: ClassLibrary03.product.Name
+  name: Name
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product_Name
+  commentId: F:ClassLibrary03.product.Name
+  fullName: ClassLibrary03.product.Name
+  nameWithType: product.Name
+- uid: ClassLibrary03.product.name*
+  name: name
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product_name_
+  commentId: Overload:ClassLibrary03.product.name
+  isSpec: "True"
   fullName: ClassLibrary03.product.name
   nameWithType: product.name
 - uid: ClassLibrary03.product.print
@@ -223,6 +262,19 @@ references:
 - uid: ClassLibrary03.product.sender
   name: sender
   href: api/ClassLibrary03.product.html#ClassLibrary03_product_sender
-  commentId: F:ClassLibrary03.product.sender
+  commentId: P:ClassLibrary03.product.sender
+  fullName: ClassLibrary03.product.sender
+  nameWithType: product.sender
+- uid: ClassLibrary03.product.Sender
+  name: Sender
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product_Sender
+  commentId: F:ClassLibrary03.product.Sender
+  fullName: ClassLibrary03.product.Sender
+  nameWithType: product.Sender
+- uid: ClassLibrary03.product.sender*
+  name: sender
+  href: api/ClassLibrary03.product.html#ClassLibrary03_product_sender_
+  commentId: Overload:ClassLibrary03.product.sender
+  isSpec: "True"
   fullName: ClassLibrary03.product.sender
   nameWithType: product.sender
